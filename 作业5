@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	double v,r, pi;
+	pi = 3.1415926;
+	printf("请输入圆球的体积\n");
+
+	scanf("%lf",&r);
+
+	v =  pi * (pow(r, 3))*4/ 3;
+
+	printf("%5.2lf\n", v);
+}
