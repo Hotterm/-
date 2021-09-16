@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	double d, p, r, m, m1, m2;
+	scanf_s("%lf,%lf,%lf",&d, &p, &r);
+	m1 = log10(p) - log10(p - d * r);
+	m2 = log10(1 + r);
+	m = m1 / m2;
+	printf("%.2f", m);
+}
